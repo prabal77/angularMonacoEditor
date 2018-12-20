@@ -1,17 +1,18 @@
-Angular Monaco Editor integration project.
+<h1>Angular Monaco Editor integration sample project.</h1>
 
 This sample project shows how to integrate monaco editor (https://microsoft.github.io/monaco-editor/) with Angular 7 and above application without using any third-party component or framework like ngx-monaco-editor. You can refer/copy the code to your project for moanco-editor integration. Should work with any angular and monaco-editor version.
 Check monaco-editor documentations for latest api's and modify your code accordingly.
 
-Versions:
-monaco-editor - 0.15.6 (at the time of writing)
+<h2>Versions:</h2>
+monaco-editor     - 0.15.6 (at the time of writing)
+
 angular		  - 7.1.4 (at the time of writing)
 
-Factors that influenced in writing this sample: 
+<h2>Factors that influenced in writing this sample: </h2>
 	Unavailability of any sample/guide to integrate monaco-editor with plain vanilla angular application. The community contributed integration components available at the time of writing (e.g. ngx-monaco-editor and ngx-monaco ) projects were not up to date and looked abandoned by the contributor.
 	
 
-Steps:
+<h2>Steps:</h2>
 
 1. Create your angular project.
 
