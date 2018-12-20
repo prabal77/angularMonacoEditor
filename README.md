@@ -36,8 +36,8 @@ angular		  - 7.1.4 (at the time of writing)
 	]
 	```
 
-5. Add ``` /// <reference path="../../../node_modules/monaco-editor/monaco.d.ts" /> ``` to any .ts file where you want to monaco namespace. As this project uses AMD loader, moanco specific typings will not be available. 
-	Don't import moanco following ES6 modules loader i.e. import * as monaco from 'monaco-editor'. This will make angular's webpack to bundle monaco-editor library along with the AMD specfic bunlding that we are using here.
+5. Add ``` /// <reference path="../../../node_modules/monaco-editor/monaco.d.ts" /> ``` to any .ts file where you want to access monaco namespace. As this project uses AMD loader, moanco specific typings will not be available. 
+	<i><b>Don't import moanco following ES6 modules loader</b></i> i.e. ```import * as monaco from 'monaco-editor'```. This will make angular's webpack to bundle monaco-editor library along with the AMD specfic bunlding that we are using here.
 	
 6. In this sample i have created editor for a custom language. The configs for custom language can be passed to monaco object in any way you like. I have injected it using service.
    The component i have created exposes the "code" ( code text typed by user on editor) via output property for the parent component to access the value and save. Feel free to come up with your design.
